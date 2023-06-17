@@ -53,7 +53,7 @@ const Events = () => {
                   <div className="eventsDescription border-l-2 border-secondary flex gap-2 p-4 md:gap-10 md:p-12 flex-col justify-center items-center">
                     <h1 className="font-bold text-2xl text-secondary">Event Description</h1>
                     <p className="font-normal text-base text-secondary">{event.description}</p>
-                    <div className="eventsButton">
+                    <div className="eventsButton ">
                       <Link to="/events" className="font-bold text-base text-secondary">
                         Learn More
                       </Link>
@@ -73,7 +73,7 @@ const Events = () => {
               <div>
               <div key={event.id} className="eventsBody flex justify-center items-center">
                 
-                <div className="eventsLayout md:flex">
+                <div className="eventsLayout flex flex-col-reverse md:flex-row">
                   
                   <div className="eventsDescription border-r-2 border-secondary flex gap-2 p-4 md:gap-10 md:p-12 flex-col justify-center items-center">
                     <h1 className="font-bold text-2xl text-secondary">Event Description</h1>
