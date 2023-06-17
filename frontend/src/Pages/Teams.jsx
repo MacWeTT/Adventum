@@ -12,22 +12,22 @@ const Teams = () => {
                   COUNCIL
                 </div>
                 <div className="teamsLayout grid grid-cols-1 md:grid-cols-3 ">
-                      <div className="">
+                      <div className="border-[1px] border-secondary">
                         <img src={eventsdummy} alt="Event Image" />
                       </div>
-                      <div className="">
+                      <div className="border-[1px] border-secondary">
                         <img src={eventsdummy} alt="Event Image" />
                       </div>
-                      <div className="">
+                      <div className="border-[1px] border-secondary">
                         <img src={eventsdummy} alt="Event Image" />
                       </div>
-                      <div className="">
+                      <div className="border-[1px] border-secondary">
                         <img src={eventsdummy} alt="Event Image" />
                       </div>
-                      <div className="">
+                      <div className="border-[1px] border-secondary">
                         <img src={eventsdummy} alt="Event Image" />
                       </div>
-                      <div className="">
+                      <div className="border-[1px] border-secondary">
                         <img src={eventsdummy} alt="Event Image" />
                       </div>
                 </div>
