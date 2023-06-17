@@ -1,4 +1,4 @@
-// from new branch
+
 import React from 'react';
 import './Team.css';
 import TeamPhoto from '../Assets/teamphoto2.png';
