@@ -16,22 +16,22 @@ const Teams = () => {
                 </div>
                 <div className="teamsLayout grid grid-cols-1 md:grid-cols-3 ">
                       <div className="">
-                        <img src={eventsdummy} alt="Event Image" />
+                        <img src={teamsdummy} alt="Event Image" />
                       </div>
                       <div className="">
-                        <img src={eventsdummy} alt="Event Image" />
+                        <img src={teamsdummy} alt="Event Image" />
                       </div>
                       <div className="">
-                        <img src={eventsdummy} alt="Event Image" />
+                        <img src={teamsdummy} alt="Event Image" />
                       </div>
                       <div className="">
-                        <img src={eventsdummy} alt="Event Image" />
+                        <img src={teamsdummy} alt="Event Image" />
                       </div>
                       <div className="">
-                        <img src={eventsdummy} alt="Event Image" />
+                        <img src={teamsdummy} alt="Event Image" />
                       </div>
                       <div className="">
-                        <img src={eventsdummy} alt="Event Image" />
+                        <img src={teamsdummy} alt="Event Image" />
                       </div>
                 </div>
                 <div className="font-400 lg:text-5xl md:text-3xl text-secondary rotate-[-90deg]">
