@@ -8,6 +8,7 @@ import MainLayout from "./Components/Layouts/MainLayout";
 import Home from "./Pages/Home";
 import NotFound from "./Pages/NotFound";
 import Events from "./Pages/Events";
+import Teams from "./Pages/Teams"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -17,7 +18,7 @@ root.render(
       <MainLayout >
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/teams" element={<Home />} />
+          <Route path="/teams" element={<Teams />} />
           <Route path="/*" element={<NotFound />} />
           <Route path="/events" element={<Events />} />
         </Routes>
