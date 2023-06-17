@@ -14,7 +14,7 @@ const Teams = () => {
                 <div className="font-400 lg:text-5xl md:text-3xl text-secondary rotate-[-90deg]">
                   COUNCIL
                 </div>
-                <div className="teamsLayout grid grid-cols-1 md:grid-cols-3 ">
+                <div className="teamsLayout grid grid-cols-1 md:grid-cols-3 border-x-2 border-secondary ">
                       <div className="">
                         <img src={teamsdummy} alt="Event Image" />
                       </div>
