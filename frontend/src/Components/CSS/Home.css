@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@300;400&display=swap");
+@font-face {
+  font-family: "Hanson";
+  src: url(../../Assets/Hanson.otf);
+}
+
+:root {
+  --primary: #171717;
+  --secondary: #d0d0d0;
+  --secondary-light: #d0d0d070;
+  --tertiary: #101011;
+  --quaternary: #0ec6fe;
+  --quinary: #f5f5f5;
+}
+body,
+html {
+  height: 100%;
+}
+body {
+  background: var(--primary);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
+.font-secondary {
+  color: var(--secondary);
+}
+.gradient-90deg {
+  margin: 3rem 0;
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(63, 243, 224, 1) 0%,
+    rgba(14, 139, 254, 1) 100%
+  );
+}
+.gradient-0deg {
+  margin: 3rem 0;
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(63, 243, 224, 1) 0%,
+    rgba(14, 139, 254, 1) 100%
+  );
+}
+
+/* Hero Section Starts*/
+.hero-section {
+  height: calc(100dvh - 8rem);
+  text-align: center;
+  max-width: 90dvw;
+  margin: 4rem auto;
+}
+.hero-header {
+  font-family: "Hanson", sans-serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 6rem;
+  margin-bottom: 4rem;
+}
+.hero-subheader {
+  margin: auto;
+  width: 65%;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.adventum-logo {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+/* Hero Section Ends */
+
+#section-1,
+#section-2,
+#section-3,
+.box-1,
+.box-2,
+.box-3 {
+  border: 1px solid var(--secondary);
+}
+.box-1,
+.box-3 {
+  height: 25%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.box-2 {
+  height: 50%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+#section-1 {
+  border-bottom: none;
+}
+#section-2 {
+  background-image: linear-gradient(
+      var(--secondary-light) 0.01em,
+      transparent 0.1em
+    ),
+    linear-gradient(90deg, var(--secondary-light) 0.01em, transparent 0.1em);
+  background-size: 19em 12.5em;
+  padding: 100px;
+  border-left: none;
+  border-right: none;
+}
+.introduction-section {
+  display: grid;
+  grid-template-columns: 10% 60% 30%;
+  text-align: center;
+  max-width: 90dvw;
+  height: 50rem;
+  margin: auto;
+}
+.introduction-header {
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  line-height: 6rem;
+}
+.introduction-content {
+  margin: 5rem auto 0 auto;
+  /* width: 90%; */
+  text-align: justify;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+.newbox-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 150px);
+}
+.newbox-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid var(--secondary);
+}
+.circle {
+  height: 9.375rem;
+  aspect-ratio: 1;
+  border: 1px solid var(--secondary);
+  border-radius: 100%;
+}
+.c1 {
+  transform: translateX(30px);
+}
+.c3 {
+  transform: translateX(-30px);
+}
+.loader {
+  display: block;
+}
