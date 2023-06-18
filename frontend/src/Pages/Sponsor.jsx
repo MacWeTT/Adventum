@@ -7,7 +7,7 @@ const Sponsor = () => {
     <section className="sponsor w-full bg-primary p-4">
         <div className="wrapper flex flex-col justify-center items-center  border-[1px] border-secondary p-6">
             <h1 className="text-4xl text-center text-secondary font-semibold py-12">Title Sponsor</h1>
-            <div className="flex flex-col justify-center items-center border-[1px] border-secondary w-4/5 p-2 md:w-1/2">
+            <div className="flex flex-col justify-center items-center border-[1px] border-secondary w-4/5 p-2 md:p-4 md:w-1/2">
                     <img className="" src={spondummy} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
             </div>
