@@ -20,15 +20,15 @@ const Sponsor = () => {
                 </div>
             </div>
             <div className='w-4/5 grid grid-cols-1 md:grid-cols-3 gap-8 border-[1px] border-secondary p-6'>
-                <div className=' flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className=' flex flex-col justify-center items-center p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className='flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className='flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
@@ -42,19 +42,19 @@ const Sponsor = () => {
                 </div>
             </div>
             <div className='w-4/5 grid grid-cols-1 md:grid-cols-4 gap-6 border-[1px] border-secondary p-6'>
-                <div className=' flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className=' flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className='flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className='flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className='flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
@@ -68,35 +68,35 @@ const Sponsor = () => {
                 </div>
             </div>
             <div className='w-4/5 grid grid-cols-1 md:grid-cols-4 gap-6 border-[1px] border-secondary p-6'>
-                <div className=' flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className=' flex flex-col justify-center items-center p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className='flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className='flex flex-col justify-center items-center p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className='flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className=' flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className=' flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className='flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className='flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
-                <div className='flex flex-col justify-center items-center border-[1px] p-2'>   
+                <div className='flex flex-col justify-center items-center  p-2'>   
                     <img className="" src={spondummy2} alt="Event Image" />
                     <h1 className="text-xl text-center text-secondary ">Sponsor Name</h1>
                 </div>
