@@ -5,41 +5,42 @@ const Teams = () => {
   return (
     <section className="teams bg-primary">
         <div className=" flex items-center justify-center w-full border-y-2 border-secondary">
-          <h1 className='font-400 text-3xl md:text-5xl text-secondary py-4 md:py-6'> OUR TEAM</h1>
+          <h1 className='font-400 text-6xl text-secondary py-2 md:py-6'> OUR TEAM</h1>
         </div>
-        <div className=" flex items-center justify-center w-full border-b-2 border-secondary">
-          <h1 className='font-300 text-2xl md:text-4xl text-secondary py-4 md:py-6'> COUNCIL </h1>
+        <div className=" flex items-center justify-center w-full border-y-2 border-secondary">
+          <h1 className='font-300 text-3xl text-secondary py-2 md:py-6'> COUNCIL </h1>
         </div>
         <div className="teamsBody flex justify-center items-center">
-                <div className="font-400 text-xl md:text-5xl text-secondary rotate-[-90deg]">
+                <div className="font-400 lg:text-5xl md:text-3xl text-secondary rotate-[-90deg]">
                   COUNCIL
                 </div>
-                <div className="teamsLayout grid grid-cols-1 md:grid-cols-3 border-x-2 border-secondary ">
-                      <div className="">
+                <div className="teamsLayout grid grid-cols-1 md:grid-cols-3 ">
+                      <div className="border-x-2 border-b-2 border-secondary grayscale hover:grayscale-0">
                         <img src={teamsdummy} alt="Event Image" />
                       </div>
-                      <div className="">
+                      <div className="border-x-2 border-b-2 border-secondary grayscale hover:grayscale-0">
                         <img src={teamsdummy} alt="Event Image" />
                       </div>
-                      <div className="">
+                      <div className="border-x-2 border-b-2  border-secondary grayscale hover:grayscale-0">
                         <img src={teamsdummy} alt="Event Image" />
                       </div>
-                      <div className="">
+                  
+                      <div className="border-x-2   border-b-2 border-secondary grayscale hover:grayscale-0">
                         <img src={teamsdummy} alt="Event Image" />
                       </div>
-                      <div className="">
+                      <div className="border-x-2  border-b-2 border-secondary grayscale hover:grayscale-0">
                         <img src={teamsdummy} alt="Event Image" />
                       </div>
-                      <div className="">
+                      <div className="border-x-2  border-b-2 border-secondary grayscale hover:grayscale-0">
                         <img src={teamsdummy} alt="Event Image" />
                       </div>
                 </div>
-                <div className="font-400 text-xl md:text-5xl text-secondary rotate-[-90deg]">
+                <div className="font-400 lg:text-5xl md:text-3xl text-secondary rotate-[-90deg]">
                   COUNCIL
                 </div>
         </div>
         <div className="flex items-center justify-center w-full border-y-2 border-secondary">
-          <h1 className='font-300 text-3xl md:text-5xl text-secondary py-4 md:py-6'>EXECUTIVES</h1>
+          <h1 className='font-300 text-4xl text-secondary py-2 md:py-6'>EXECUTIVES</h1>
         </div>
       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 p-20">
