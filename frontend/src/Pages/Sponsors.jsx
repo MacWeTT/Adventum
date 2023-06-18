@@ -15,7 +15,7 @@ const Sponsors = () => {
           <p className="text-gray-300 text-center text-1xl pb-4">Sponsor1</p>
         </div>
         <div className="text-gray-300 text-center font-300 text-5xl  p-6">SILVER SPONSOR</div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 border-white border-2 ">
+        <div className="grid grid-cols-1  md:grid-cols-3  gap-4 border-white border-2 ">
         <div className="  shadow-lg p-8 ml-8 "><img src={sponsdummy} alt="Event Image" /><p className="text-gray-300 text-center text-1xl pt-3">Sponsor2</p></div>
           <div className="  shadow-lg p-8 ml-8">
           <img src={sponsdummy} alt="Event Image" /><p className="text-gray-300 text-center text-1xl  pt-3">Sponsor3</p></div>
