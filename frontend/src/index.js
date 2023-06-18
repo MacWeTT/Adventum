@@ -10,7 +10,6 @@ import NotFound from "./Pages/NotFound";
 import Events from "./Pages/Events";
 import Teams from "./Pages/Teams";
 import Sponsors from "./Pages/Sponsors";
-import Sponsor from "./Pages/Sponsor";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -21,7 +20,6 @@ root.render(
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/sponsors" element={<Sponsors/>} />
-          <Route path="/sponsor" element={<Sponsor/>} />
 
           <Route path="/teams" element={<Teams />} />
           <Route path="/*" element={<NotFound />} />
