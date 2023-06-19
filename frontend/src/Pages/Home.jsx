@@ -7,8 +7,8 @@ import "../Components/CSS/Home.css";
 const Home = () => {
   return (
     <>
-      <section className="hero-section bg-primary h-screen flex flex-col justify-center items-center gap-48 md:gap-12">
-        <h1 className="hero-header font-secondary text-center pt-12 font-[700] md:text-6xl   text-3xl">the adventure awaits you</h1>
+      <section className="hero-section bg-primary h-screen flex flex-col justify-center items-center gap-12 md:gap-12">
+        <h1 className="hero-header font-secondary text-center pt-12 font-[700] md:text-6xl   text-4xl">the adventure awaits you</h1>
         <p className="hero-subheader font-secondary text-center font-[400] md:text-4xl text-xl  md:w-3/5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
           iste corrupti culpa.
