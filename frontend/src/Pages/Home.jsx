@@ -7,17 +7,23 @@ import "../Components/CSS/Home.css";
 const Home = () => {
   return (
     <>
-      <section className="hero-section bg-primary">
-        <h1 className="hero-header font-secondary">the adventure awaits you</h1>
-        <p className="hero-subheader font-secondary">
+      <section className="hero-section bg-primary h-screen flex flex-col justify-center items-center gap-48 md:gap-12">
+        <h1 className="hero-header font-secondary text-center pt-12 font-[700] md:text-6xl   text-3xl">the adventure awaits you</h1>
+        <p className="hero-subheader font-secondary text-center font-[400] md:text-4xl text-xl  md:w-3/5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
           iste corrupti culpa.
         </p>
         <img src={logo} alt="adventum logo" className="adventum-logo" />
       </section>
+
+
+
       <div className="gradient-90deg"></div>
 
-      <article className="introduction-section font-secondary">
+      <section className="about-section bg-primary flex flex-col justify-center items-center gap-12">
+      </section>
+
+      {/* <article className="introduction-section font-secondary">
         <div id="section-1">
           <div className="box-1"></div>
           <div className="box-2"></div>
@@ -48,9 +54,12 @@ const Home = () => {
             <div className="circle c3"></div>
           </div>
         </div>
-      </article>
+      </article> */}
 
       <div className="gradient-0deg"></div>
+
+      <section className="hint-section bg-primary flex flex-col justify-center items-center gap-12">
+      </section>
     </>
   );
 };

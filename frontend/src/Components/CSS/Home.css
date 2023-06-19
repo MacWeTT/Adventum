@@ -52,7 +52,8 @@ h6 {
   );
 }
 
-/* Hero Section Starts*/
+/* Hero Section Starts */
+/*
 .hero-section {
   height: calc(100dvh - 8rem);
   text-align: center;
@@ -80,7 +81,7 @@ h6 {
   display: block;
   margin: auto;
   width: 90%;
-}
+} */
 /* Hero Section Ends */
 
 #section-1,

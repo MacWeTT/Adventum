@@ -16,11 +16,11 @@ const Footer = () => {
       </div>
       <div className="flex justify-center items-center gap-6">
             <div >
-              <p className="">Aarhaan Khan</p>
+              <p className="font-medium">Aarhaan Khan</p>
               <p>+91 xxxxxxxx</p>
             </div>
             <div>
-              <p className="">Aarhaan Khan</p>
+              <p className="font-medium">Aarhaan Khan</p>
               <p>+91 xxxxxxxx</p>
             </div>
       </div>
