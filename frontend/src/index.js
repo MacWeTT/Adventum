@@ -20,7 +20,6 @@ root.render(
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/sponsors" element={<Sponsors/>} />
-
           <Route path="/teams" element={<Teams />} />
           <Route path="/*" element={<NotFound />} />
           <Route path="/events" element={<Events />} />
