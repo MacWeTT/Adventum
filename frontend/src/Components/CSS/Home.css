@@ -12,12 +12,14 @@
   --quaternary: #0ec6fe;
   --quinary: #f5f5f5;
 }
-body,
-html {
-  height: 100%;
-}
+
 body {
   background: var(--primary);
+}
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
 }
 h1,
 h2,
@@ -53,19 +55,19 @@ h6 {
 }
 
 /* Hero Section Starts */
-/*
+
 .hero-section {
-  height: calc(100dvh - 8rem);
+  /* height: calc(100dvh - 8rem); */
   text-align: center;
-  max-width: 90dvw;
-  margin: 4rem auto;
+  width: 90dvw;
+  margin: 2rem auto;
 }
 .hero-header {
   font-family: "Hanson", sans-serif;
   font-size: 3.75rem;
   font-weight: 700;
   line-height: 6rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1.5rem;
 }
 .hero-subheader {
   margin: auto;
@@ -74,99 +76,373 @@ h6 {
   font-size: 2rem;
   font-weight: 400;
   line-height: 2.6rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
-.adventum-logo {
-  display: block;
-  margin: auto;
-  width: 90%;
-} */
 /* Hero Section Ends */
 
-#section-1,
-#section-2,
-#section-3,
-.box-1,
-.box-2,
-.box-3 {
-  border: 1px solid var(--secondary);
-}
-.box-1,
-.box-3 {
-  height: 25%;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-}
-.box-2 {
-  height: 50%;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-}
-#section-1 {
-  border-bottom: none;
-}
-#section-2 {
-  background-image: linear-gradient(
-      var(--secondary-light) 0.01em,
-      transparent 0.1em
-    ),
-    linear-gradient(90deg, var(--secondary-light) 0.01em, transparent 0.1em);
-  background-size: 19em 12.5em;
-  padding: 100px;
-  border-left: none;
-  border-right: none;
-}
 .introduction-section {
-  display: grid;
-  grid-template-columns: 10% 60% 30%;
-  text-align: center;
-  max-width: 90dvw;
+  /* position: relative; */
   height: 50rem;
   margin: auto;
+  width: 90dvw;
+  border: 1px solid var(--secondary);
+  display: flex;
+  flex-direction: row;
 }
+.square-decor {
+  /* display: none; */
+  position: absolute;
+  border: 1px solid var(--secondary);
+  background: var(--primary);
+  width: 20px;
+  aspect-ratio: 1;
+}
+.square-1 {
+  top: -10px;
+  right: -10px;
+}
+
+.square-2 {
+  bottom: -10px;
+  right: -10px;
+}
+
+.square-3 {
+  top: 190px;
+  left: -10px;
+}
+
+.square-4 {
+  bottom: -10px;
+  left: -10px;
+}
+
+.box-1,
+.box-2 {
+  border-bottom: 1px solid var(--secondary);
+}
+.box-1 {
+  flex-grow: 0.8;
+}
+.box-2 {
+  position: relative;
+  flex-grow: 2;
+}
+.box-3 {
+  flex-grow: 1.3;
+}
+
 .introduction-header {
+  margin: 10rem auto;
+  width: fit-content;
+  margin-bottom: 4rem;
   font-family: "Bebas Neue", sans-serif;
   text-transform: uppercase;
   font-size: 5rem;
   line-height: 6rem;
 }
 .introduction-content {
-  margin: 5rem auto 0 auto;
-  /* width: 90%; */
+  margin: 0 auto 6rem;
+  width: 80%;
   text-align: justify;
   font-family: "IBM Plex Mono", monospace;
   font-size: 2rem;
   font-weight: 300;
   line-height: 2rem;
 }
-
-.newbox-1 {
+.loader-section {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100% - 150px);
+  height: calc(100% - 10rem);
 }
-.newbox-2 {
+.loader {
+  width: 25rem;
+}
+.circle-section {
+  border-top: 1px solid var(--secondary);
+  border-bottom: 1px solid var(--secondary);
+  height: 11rem;
   width: 100%;
   display: flex;
   justify-content: center;
-  border-top: 1px solid var(--secondary);
+  /* background: red; */
 }
-.circle {
-  height: 9.375rem;
-  aspect-ratio: 1;
+.circle-1,
+.circle-2,
+.circle-3 {
+  width: calc(100% / 3.33);
   border: 1px solid var(--secondary);
   border-radius: 100%;
 }
-.c1 {
-  transform: translateX(30px);
+.circle-1 {
+  translate: 30px;
 }
-.c3 {
-  transform: translateX(-30px);
+.circle-3 {
+  translate: -30px;
 }
-.loader {
+#section-1 {
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 0.6; */
+  width: 10%;
+  /* background: pink; */
+}
+#section-2 {
+  border-left: 1px solid var(--secondary);
+  border-right: 1px solid var(--secondary);
+  width: 5%;
+  background-image: linear-gradient(
+      var(--secondary-light) 0.01em,
+      transparent 0.1em
+    ),
+    linear-gradient(90deg, var(--secondary-light) 0.01em, transparent 0.1em);
+  background-size: 20.5em 12.5em;
+  flex-grow: 1;
+}
+#section-3 {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+}
+#hint-carousel {
+  width: 33.3%;
+}
+.crossword-header {
+  margin-top: 2rem;
+}
+.crossword {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+  height: 60%;
+  background-color: var(--secondary-light);
+}
+.crossword-hint-header {
+  font-size: 3.75rem;
+}
+.learn-more-btn {
   display: block;
+  font-family: "IBM Plex Mono", monospace;
+  background: var(--secondary);
+  color: var(--primary);
+  border-radius: 16px;
+  width: 37%;
+  padding: 10px;
+  margin: 0 auto;
+  transition: box-shadow 250ms ease-in-out;
+}
+
+.learn-more-btn:hover {
+  box-shadow: 0px 0px 40px 20px rgba(208, 208, 208, 0.1);
+}
+.hint {
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-header {
+    text-align: left;
+    margin: auto;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  .hero-subheader {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  .introduction-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .introduction-header {
+    text-align: left;
+    margin: auto;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  .introduction-content {
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  .circle-section {
+    flex-direction: row;
+  }
+  #section-1 {
+    display: none;
+  }
+  #section-2,
+  #section-3 {
+    width: 100%;
+  }
+  #section-2 {
+    border: none;
+    border-bottom: 1px solid var(--secondary);
+    text-wrap: balance;
+    padding: 15px;
+    background-size: 8em 8em;
+  }
+  .introduction-section #section-3 {
+    flex-direction: row;
+  }
+  .loader-section {
+    height: auto;
+  }
+  .circle-section {
+    border: none;
+    border-left: 1px solid var(--secondary);
+    border-bottom: none;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 50%;
+  }
+  .circle-1,
+  .circle-2,
+  .circle-3 {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 1px solid var(--secondary);
+    border-radius: 100%;
+  }
+  .circle-1 {
+    translate: 0;
+    transform: translateY(30px);
+  }
+  .circle-3 {
+    translate: 0;
+    transform: translateY(-30px);
+  }
+  .square-3 {
+    display: none;
+  }
+
+  .square-4 {
+    display: none;
+  }
+  .crossword {
+    height: 300px;
+  }
+  #hint-carousel {
+    width: 85%;
+    margin: auto;
+  }
+  .learn-more-btn {
+    margin: 3rem auto;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  .hero-subheader {
+    width: 90%;
+    margin: 2rem auto 4rem auto;
+  }
+  .introduction-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .introduction-header {
+    text-align: left;
+    margin: auto;
+    font-size: 4rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  .introduction-content {
+    width: 100%;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  .circle-section {
+    flex-direction: row;
+  }
+  #section-1 {
+    display: none;
+  }
+  #section-2,
+  #section-3 {
+    width: 100%;
+  }
+  #section-2 {
+    border: none;
+    border-bottom: 1px solid var(--secondary);
+    text-wrap: balance;
+    padding: 20px;
+    background-size: 8em 8em;
+  }
+  .introduction-section #section-3 {
+    flex-direction: row;
+  }
+  .loader-section {
+    height: auto;
+    width: 90%;
+  }
+  .loader {
+    margin: 0;
+  }
+  .circle-section {
+    border: none;
+    border-left: 1px solid var(--secondary);
+    border-bottom: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 20%;
+  }
+  .circle-1,
+  .circle-2,
+  .circle-3 {
+    width: 100%;
+    aspect-ratio: 1;
+    border: 1px solid var(--secondary);
+    border-radius: 100%;
+  }
+  .circle-1 {
+    translate: 0;
+    transform: translateY(30px);
+  }
+  .circle-3 {
+    translate: 0;
+    transform: translateY(-30px);
+  }
+  .square-3 {
+    display: none;
+  }
+
+  .square-4 {
+    display: none;
+  }
+  .crossword {
+    height: 300px;
+  }
+  #hint-carousel {
+    width: 50%;
+    margin: auto;
+  }
+  .learn-more-btn {
+    margin: 3rem auto;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .hero-section,
+  .introduction-section {
+    width: 75dvw;
+  }
 }
